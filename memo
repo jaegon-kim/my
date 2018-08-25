@@ -1,2 +1,14 @@
-BFS(Breadth First Search)
- - Time & Space Complexity : O(b^d) - d(solution depth)th power of b(branch) / exponential complexity
+* BFS(Breadth First Search)
+ - Time & Space Complexity : O(b^d) - d(solution depth)th power of b(branch) - exponential complexity
+ - Optimal
+ - Complete
+
+* DFS(Depth First Search)
+ - Time Complexity : O(b^m) - m(maximum depth)th power of b(branch) - exponential complexity
+ - Space Complexity : O (b*m) - m(maximum depth) * b(branch)
+ - Not Optimal
+ - Not complete
+ 
+* Iterative Deepening
+ - Time complexity : O (b^d)
+ - Space Complexity : O (bd )
